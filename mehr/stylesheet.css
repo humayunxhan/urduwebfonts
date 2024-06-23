@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'mehr_nastaliq_webregular';
+    src: url('mehr_nastaliq_web_v._2.0-webfont.woff2') format('woff2'),
+         url('mehr_nastaliq_web_v._2.0-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
