@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="noindex, noarchive">
     <meta name="format-detection" content="telephone=no">
-    <title>Transfonter demo</title>
+    <title>Mehr Nastaliq Web Font Demo</title>
+	<script src="myscripts.js"></script>
     <link href="stylesheet.css" rel="stylesheet">
     <style>
      @import url('https://humayunxhan.github.io/Urduwebfonts/mehr/stylesheet.css');
@@ -86,54 +87,6 @@ input {
 .font-size-72 {font-size: 72px;}
 .font-size-92 {font-size: 92px;}
     </style>
-    <script>
-
-        (function($){
-	var fontTxt = $("#fontTxt"); // font
-	var fontTxtField = $("#fontTxtField");
-	var fontsSelectBox = $("#fontsSelectBox");
-	var fontSizeSelectBox  = $("#fontSizeSelectBox");
-  
-	$(fontSizeSelectBox).selectmenu({
-		change : function (event, data) {
-		 fontTxtField.removeClass("font-size-16").removeClass("font-size-20")
-			.removeClass("font-size-40").removeClass("font-size-72")
-			.removeClass("font-size-92")
-			.addClass(data.item.value);	
-		}  
-	});
-
-	$(fontsSelectBox).selectmenu({
-		change : function(event, data) {
-			fontTxtField.removeClass("openSans").removeClass("oswald")
-			.removeClass("anton").removeClass("kaushanScript")
-			.removeClass("rochester").removeClass("sacramento")
-			.addClass(data.item.value);
-		},
-		icons: { button: "ui-icon-circle-triangle-s" }
-	});
-  
-	$("#uppercase, #lowercase, #capitalize, #normal").change(function () {
-		var value = this.value;
-		switch(value) {
-			case "uppercase":
-				fontTxtField.addClass("uppercase-text").removeClass("lowercase-text").removeClass("capitalize-text");
-			break;
-			case "lowercase":
-				fontTxtField.addClass("lowercase-text").removeClass("uppercase-text").removeClass("capitalize-text");
-			break;
-			case "capitalize":
-				fontTxtField.addClass("capitalize-text").removeClass("uppercase-text").removeClass("lowercase-text");
-			break;			
-			case "normal":
-			default:
-				fontTxtField.removeClass("uppercase-text").removeClass("lowercase-text").removeClass("capitalize-text");;
-			break;
-		};
-	});
-  
-})(jQuery);
-    </script>
 </head>
 <body>
 <div class="wrapper">    
@@ -143,7 +96,7 @@ input {
 			<label for="fontsSelectBox">Choose Font</label>
 			<select id="fontsSelectBox" name="fontsSelectBox">
 			<option value="openSans">Open Sans</option>
-			<option value="oswald">Oswald</option>
+			<option value="oswald">Mehr Nastaliq</option>
 			<option value="anton">Anton</option>
 			<option value="kaushanScript">Kaushan Script</option>
 			<option value="rochester">Rochester</option>
