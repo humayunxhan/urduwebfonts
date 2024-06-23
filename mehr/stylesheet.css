@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Mehr Nastaliq Web';
+    src: url('MehrNastaliqWeb.woff2') format('woff2'),
+        url('MehrNastaliqWeb.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
