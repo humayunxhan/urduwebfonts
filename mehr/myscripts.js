@@ -15,7 +15,7 @@
 
 	$(fontsSelectBox).selectmenu({
 		change : function(event, data) {
-			fontTxtField.removeClass("openSans").removeClass("oswald")
+			fontTxtField.removeClass("openSans").removeClass("Mehr Nastaliq Web")
 			.removeClass("anton").removeClass("kaushanScript")
 			.removeClass("rochester").removeClass("sacramento")
 			.addClass(data.item.value);
