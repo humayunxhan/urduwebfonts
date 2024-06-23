@@ -5,7 +5,7 @@ Google alternative Urdu web fonts to embed in your blog or website for free.
 <br />
  * [Demo Sameer Klek](https://humayunxhan.github.io/Urduwebfonts)
 - Css Link for Sameer Klek: `https://humayunxhan.github.io/Urduwebfonts/sameer%20klek/stylesheet.css`
-- * [demo Mehr Nastaliq](https://humayunxhan.github.io/Urduwebfonts/mehr/demo.html)
+- [demo Mehr Nastaliq](https://humayunxhan.github.io/Urduwebfonts/mehr/demo.html)
 - Css Link For Mehr Nastaliq: `https://humayunxhan.github.io/Urduwebfonts/mehr/stylesheet.css`
 
 humayunkhan108@gmail.com
